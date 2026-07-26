@@ -61,3 +61,8 @@ The selected model is saved to `ml-service/model.joblib`. Accuracy, per-class pr
 - Next/Vinext: account UI, upload flow, dashboard, transaction editing, fairness view
 - Express: authentication, secure cookies, upload validation, MongoDB persistence, FastAPI proxy
 - FastAPI: CSV/XLSX/PDF extraction and cleaning, categorization, confidence values, summaries, and model metrics
+
+collaborators:
+
+- Mohini
+- Manjeeta
