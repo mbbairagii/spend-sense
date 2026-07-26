@@ -1,0 +1,13 @@
+.historyBar{display:grid;grid-template-columns:120px 1fr;gap:22px;padding:18px 0;border-bottom:1px solid var(--line);font-family:var(--font-geist-mono),monospace;font-size:9px}
+.historyBar>span{color:var(--muted);padding-top:9px}
+.historyBar>div{display:flex;gap:8px;overflow:auto}
+.historyBar button{min-width:145px;text-align:left;border:1px solid var(--line);background:transparent;color:var(--fg);padding:8px 10px;font-size:9px}
+.historyBar button.active{border-color:var(--fg)}
+.historyBar small{display:block;color:var(--muted);margin-top:5px}
+.accountPanel{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding:35px 0}
+.accountPanel>div{border-top:1px solid var(--fg);padding-top:28px}
+.accountPanel h2{font-size:42px;margin:30px 0 15px}
+.accountPanel p{color:var(--muted);font-size:12px;line-height:1.6}
+.accountPanel button{display:block;width:100%;border:1px solid var(--fg);background:var(--fg);color:var(--bg);padding:13px;margin-top:14px;font-size:10px}
+.accountPanel button.danger{background:transparent;color:var(--fg)}
+@media(max-width:700px){.historyBar{grid-template-columns:1fr}.accountPanel{grid-template-columns:1fr}}
